@@ -14,12 +14,13 @@ import org.springframework.web.bind.annotation.RestController;
 import com.dt.de.jpa.repository.CustomerRepository;
 import com.dt.de.model.Customer;
 
+
 @RestController
 @RequestMapping(path = "/dtCustomer")
 @CrossOrigin
 public class CustomerDetails { 
 	private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
-	
+	// add by Ramakrishna.
 	@Autowired
 	CustomerRepository customRepository;
 
