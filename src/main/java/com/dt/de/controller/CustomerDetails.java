@@ -20,7 +20,7 @@ import com.dt.de.model.Customer;
 @CrossOrigin
 public class CustomerDetails { 
 	private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
-	// add by Ramakrishna.
+	
 	@Autowired
 	CustomerRepository customRepository;
 
