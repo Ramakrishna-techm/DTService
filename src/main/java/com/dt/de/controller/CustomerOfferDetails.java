@@ -20,7 +20,7 @@ import com.dt.de.model.CustomerOffer;
 public class CustomerOfferDetails {
 
 	private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
-	
+	//code change by Ram
 	@Autowired
 	private CustomerOfferRepository customerOfferRepository; 
 	
